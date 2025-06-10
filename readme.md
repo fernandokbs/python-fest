@@ -21,10 +21,3 @@ pip install -r requirements.txt
 gunicorn -w 4 -b 0.0.0.0:8000 app:app
 ```
 
-```bash
-sudo systemctl daemon-reload
-sudo systemctl enable flask
-sudo systemctl start flask
-
-sudo systemctl status flask
-```
